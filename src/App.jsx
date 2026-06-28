@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import TaskItem from './components/TaskItem';
+import TaskItem from "./Components/TaskItem";
 
 function App() {
   // Main states for holding input value and both task arrays
