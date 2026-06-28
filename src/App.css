@@ -14,6 +14,25 @@
   overflow-y: auto;
 }
 
+.tasks-list {
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+
+.task-text {
+  flex: 1 1 auto;
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  white-space: normal;
+}
+
+.task-buttons {
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
 #addButton {
   width: 50px;
   height: 50px;
